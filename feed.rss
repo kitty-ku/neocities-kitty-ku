@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+
+	<title>Kitty-ku</title>
+	<link>https://kitty-ku.neocities.org</link>
+	<description>Assorted whatever</description>
+
+	<item>
+		<title>RSS Testing</title>
+		<link>https://kitty-ku.neocities.org/gallery</link>
+		<description>Testiggg</description>
+	</item>
+
+<!-- Copy paste me
+	<item>
+		<title></title>
+		<link></link>
+		<description></description>
+	</item>
+-->
+
+</channel>
+</rss>
