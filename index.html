@@ -23,7 +23,6 @@
     <span class="border">///</span>
     <script src="flash-text.js"></script>
   </div> <!-- id="under-construction" -->
-  <!-- <script src="show-nav.js"></script> -->
   <button id="show-nav-button">>>> map of the hellhole >>></button>
 
   <main>
@@ -33,7 +32,7 @@
         <li><a href="index.html">home page</a></li>
         <li><a href="whoami.html">who am i</a></li>
         <li><a href="gallery.html">gallery</a></li>
-        <li><a href="feed.rss">RSS</a></li>
+        <li><a href="feed.xml">RSS</a></li>
       </ul>
       <div id="middle-pad" style="flex: 1"></div>
       <div id="button-board">
@@ -55,14 +54,6 @@
         <img src="Hi-Kit.png" style="float:right">
       </p>
 
-      <h3>Updates</h3>
-      <textarea readonly style="height: 20em; width: 10em; resize: none;">
-        2025-09-20: [*] RIP :contains() css pseudoselector, gone but not unnecessary
-        2025-09-18: I hate favicons being 16x16px, ruins my whole bitmap vibe >:t
-        2025-09-17: Updates online sir, you get to stalk on me now!
-        2025-09-14: Sometime here I "published" my first "blog". Go checkit pls :3
-      </textarea>
-
       <h3>Showoff</h3>
       here lay me things i've done and be proud of <br />
       notice the lack of things i've done and be proud of - but worry not traveller,! for great things are yet to come.
@@ -73,15 +64,24 @@
       <ul>
         <li></li>
       </ul>
-      
-      <span style="background-color: gold">Update: The gallery now has 1 (1) new piece of writing! Hooray!</span>
     </article>
 
+    <sidebar>
+      <div id="rss">
+        <h3>Subscribe to my
+          <a href="feed.xml" style="
+              background-color: orange;
+              color: whitesmoke;
+              padding: 2px;
+              border-radius: 3px;
+              text-decoration: none;
+            ">
+            RSS</a>!
+        </h3>
+        <iframe src="feed.xml"></iframe>
+      </div>
+    </sidebar>
   </main>
-
-  <!-- <footer>
-    <img src="neocities.png" width="150" />
-  </footer> -->
 
 </body>
 

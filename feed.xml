@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="rss-to-html.xsl"?>
+<rss version="2.0">
+<channel>
+
+	<title>Kitty-ku</title>
+	<link>https://kitty-ku.neocities.org</link>
+	<description>Assorted whatever</description>
+
+	<item>
+		<title>New month, new me</title>
+		<link>https://kitty-ku.neocities.org/feed.xml</link>
+		<description>I promise I will do more rss updates. Getting into the rhythm ooh aah</description>
+	</item>
+
+	<item>
+		<title>New garbage on garbage</title>
+		<link>https://kitty-ku.neocities.org/garbage</link>
+		<description>Garbage in, garbage out. More thoughts on garbage in the forest going garbage. out. of the forest.</description>
+	</item>
+
+	<item>
+		<title>RSS Testing</title>
+		<link>https://kitty-ku.neocities.org/gallery</link>
+		<description>RSS tested with success and fully. Welcome aboard.</description>
+	</item>
+
+
+<!-- Copy me paste me
+	<item>
+		<title></title>
+		<link></link>
+		<description></description>
+	</item>
+-->
+
+</channel>
+</rss>

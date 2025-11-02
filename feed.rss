@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="rss-to-html.xsl"?>
 <rss version="2.0">
 <channel>
 
-	<title>Kitty-ku</title>
+	<title>KITTY-KU'S FEED.RSS IS DEPRECATED</title>
 	<link>https://kitty-ku.neocities.org</link>
-	<description>Assorted whatever</description>
+	<description>feed.rss has migrated to feed.xml to support xslt in browsers. Sorry for the inconvenience.</description>
 
-	<item>
-		<title>RSS Testing</title>
-		<link>https://kitty-ku.neocities.org/gallery</link>
-		<description>Testiggg</description>
-	</item>
-
-<!-- Copy paste me
+<!-- Copy me paste me
 	<item>
 		<title></title>
 		<link></link>
