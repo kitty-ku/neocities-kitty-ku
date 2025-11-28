@@ -9,7 +9,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			<link rel="icon" type="image/x-icon" href="favicon.png"></link>
 		</head>
 		<body>
+			<!-- <h1>the kitty-ku rss feed</h1> -->
 			<xsl:apply-templates/>
+			<footer>
+				To subscribe, paste this site's URL into your RSS reader app
+			</footer>
 		</body>
 	</html>
 </xsl:template>
