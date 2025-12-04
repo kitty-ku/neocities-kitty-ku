@@ -9,29 +9,33 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			<link rel="icon" type="image/x-icon" href="favicon.png"></link>
 		</head>
 		<body>
-			<!-- <h1>the kitty-ku rss feed</h1> -->
-			<xsl:apply-templates/>
-			<footer>
-				To subscribe, paste this site's URL into your RSS reader app
-			</footer>
+			<main>
+				<!-- <h1>the kitty-ku rss feed</h1> -->
+				<xsl:apply-templates/>
+				<footer>
+					To subscribe, paste this site's URL into your RSS reader app.
+				</footer>
+			</main>
 		</body>
 	</html>
 </xsl:template>
 
 <xsl:template match="channel">
 	<xsl:for-each select="item">
-		<h3><a>
-			<xsl:attribute name="href">
-				<xsl:value-of select="link"/>
-			</xsl:attribute>
-			<xsl:attribute name="target">
-				_parent
-			</xsl:attribute>
-			<!-- FIXME: Wtf is wrong with XSLT??? This span can't be displayed: none dynamically -->
-			<!-- <span class="unread-marker" style="display: inline-block;">[!]</span> -->
-			<xsl:value-of select="title"/>
-		</a></h3>
-		<p><xsl:value-of select="description"/></p>
+		<div class="item">
+			<h3><a>
+				<xsl:attribute name="href">
+					<xsl:value-of select="link"/>
+				</xsl:attribute>
+				<xsl:attribute name="target">
+					_parent
+				</xsl:attribute>
+				<!-- FIXME: Wtf is wrong with XSLT??? This span can't be displayed: none dynamically -->
+				<!-- <span class="unread-marker" style="display: inline-block;">[!]</span> -->
+				<xsl:value-of select="title"/>
+			</a></h3>
+			<p><xsl:value-of select="description"/></p>
+		</div>
 	</xsl:for-each>
 </xsl:template>
 

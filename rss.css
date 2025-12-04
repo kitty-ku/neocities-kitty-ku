@@ -2,23 +2,41 @@ html {
 	font-family: monospace;
 }
 
-h3 {
-	background-color: black;
-	padding: 0.3em 0.5em;
-	color: white;
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 3px;
-}
+@media screen and (min-width: 600px) {
 
-a {
-	color: orange;
-}
-
-a:visited {
-	color: white;
-
-	.unread-marker {
-		display: none;
+	main {
+		margin-left: 20vw;
+		margin-right: 20vw;
 	}
+}
+
+.item {
+	/* background-color: rgb(224, 216, 180); */
+
+	h3 {
+		background-color: black;
+		padding: 0.3em 0.5em;
+		color: white;
+		font-weight: bold;
+		text-decoration: none;
+		border-radius: 3px;
+	}
+
+	a {
+		color: orange;
+	}
+
+	a:visited {
+		color: white;
+
+		.unread-marker {
+			display: none;
+		}
+	}
+}
+
+footer {
+	margin-top: 5em;
+	padding: 0.5em;
+	background-color: lightgray;
 }
